@@ -1,3 +1,32 @@
+/* Font Import */
+@import url('https://fonts.googleapis.com/css2?family=ABeeZee:ital@0;1&family=Merienda:wght@300..900&display=swap');
+
+/* Global Variables */
+:root{
+    --primary-font: "ABeeZee", sans-serif;
+    --secondary-font: "Merienda", cursive;
+}
+
+/* Main Font */
+body{
+    font-family: var(--primary-font);
+}
+/* Navbar Font */
+.navbar{
+    font-family: var(--secondary-font);
+    font-size: 18px;
+    font-weight: 400;
+}
+/* Navbar Toggler Background/border */
+.navbar-toggler, .navbar-toggler:focus{
+    border: 0;
+    outline: 0;
+    box-shadow: none;
+    padding: 0;
+    font-size: 18px;
+    color: black;
+}
+/* Navbar collapsable menu text */
 .nav-item{
     text-align: center;
 }
