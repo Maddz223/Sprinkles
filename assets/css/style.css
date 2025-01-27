@@ -5,11 +5,16 @@
 :root{
     --primary-font: "ABeeZee", sans-serif;
     --secondary-font: "Merienda", cursive;
+    --primary-color: #B09AD9;
+    --secondary-color: #B665BC;
+    --thrid-color: #F195C3;
+    --primary-font-color: #4b4342;
 }
 
 /* Main Font */
 body{
     font-family: var(--primary-font);
+    color: var(--primary-font-color);
 }
 /* Navbar Font */
 .navbar{
@@ -17,6 +22,7 @@ body{
     font-size: 18px;
     font-weight: 400;
 }
+
 /* Navbar Toggler Background/border */
 .navbar-toggler, .navbar-toggler:focus{
     border: 0;
