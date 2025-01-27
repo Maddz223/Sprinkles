@@ -16,6 +16,10 @@ body{
     font-family: var(--primary-font);
     color: var(--primary-font-color);
 }
+
+#header{
+    padding-top: 120px;
+}
 /* Navbar Font */
 .navbar{
     font-family: var(--secondary-font);
