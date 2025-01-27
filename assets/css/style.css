@@ -21,6 +21,7 @@ body{
     font-family: var(--secondary-font);
     font-size: 18px;
     font-weight: 400;
+    background-color: var(--thrid-color);
 }
 
 /* Navbar Toggler Background/border */
