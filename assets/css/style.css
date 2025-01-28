@@ -16,11 +16,17 @@ body{
     font-family: var(--primary-font);
     color: var(--primary-font-color);
 }
-
+/* Header Padding to pass navbar */
 #header{
     padding-top: 120px;
 }
+
+/* Content Headings */
 .headings{
+    font-family: var(--primary-font);
+    font-weight: 600;
+}
+.headings1{
     font-family: var(--secondary-font);
     font-weight: 600;
 }
@@ -62,4 +68,11 @@ body{
 
 #contact .social-links i:hover {
     color: var(--secondary-color);
+}
+
+/* Opening times table */
+.table {
+    --bs-table-bg: var(--thrid-color);
+    --bs-table-color: var(--primary-font-color);
+    border: 0; 
 }
