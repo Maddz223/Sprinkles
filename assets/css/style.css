@@ -94,8 +94,10 @@ body {
 .counter {
     width: 100%;
     background-image: url(../images/raspberry-ripple-cupcakes.webp);
+    background-position: center;
     padding: 70px 0px;
     background-size: cover;
+    position: relative;
 }
 
 .counter-box {
@@ -121,13 +123,12 @@ body {
 .count-icon {
     position: absolute;
     z-index: -1;
-    left: 110px;
-    top: 5px;
+    left: 103px;
 }
 
 .count-icon i {
-    font-size: 87px;
-    color: rgba(75, 67, 66, 0.40);
+    font-size: 90px;
+    color: rgba(75, 67, 66, 0.5);
 }
 
 /* Services */
