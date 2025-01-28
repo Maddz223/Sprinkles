@@ -2,7 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=ABeeZee:ital@0;1&family=Merienda:wght@300..900&display=swap');
 
 /* Global Variables */
-:root{
+:root {
     --primary-font: "ABeeZee", sans-serif;
     --secondary-font: "Merienda", cursive;
     --primary-color: #B09AD9;
@@ -12,26 +12,31 @@
 }
 
 /* Main Font */
-body{
+body {
     font-family: var(--primary-font);
     color: var(--primary-font-color);
+    font-size: 16px;
+    line-height: 24px;
 }
+
 /* Header Padding to pass navbar */
-#header{
+#header {
     padding-top: 110px;
 }
 
 /* Content Headings */
-.headings{
+.headings {
     font-family: var(--primary-font);
-    font-weight: 600;
+    font-weight: 600 !important;
 }
-.headings1{
+
+.headings1 {
     font-family: var(--secondary-font);
-    font-weight: 600;
+    font-weight: 600 !important;
 }
+
 /* Navbar Font */
-.navbar{
+.navbar {
     position: fixed;
     top: 0;
     width: 100%;
@@ -43,7 +48,8 @@ body{
 }
 
 /* Navbar Toggler Background/border */
-.navbar-toggler, .navbar-toggler:focus{
+.navbar-toggler,
+.navbar-toggler:focus {
     border: 0;
     outline: 0;
     box-shadow: none;
@@ -51,17 +57,20 @@ body{
     font-size: 18px;
     color: black;
 }
+
 /* Navbar collapsable menu text */
-.nav-item{
+.nav-item {
     text-align: center;
 }
+
 /* Footer Layout */
-#contact{
+#contact {
     width: 100%;
     background-color: var(--thrid-color);
 }
+
 /* Social icons */
-#contact .social-links i{
+#contact .social-links i {
     color: var(--primary-font-color);
     font-size: 1.9rem;
     -webkit-transition: color 0.3s ease-in-out;
@@ -78,39 +87,180 @@ body{
 .table {
     --bs-table-bg: var(--thrid-color);
     --bs-table-color: var(--primary-font-color);
-    border: 0; 
+    border: 0;
 }
+
 /* Counter Styles */
-.counter{
+.counter {
     width: 100%;
     background-image: url(../images/raspberry-ripple-cupcakes.webp);
     padding: 70px 0px;
     background-size: cover;
 }
-.counter-box{
+
+.counter-box {
     width: 100%;
     position: relative;
     z-index: 1;
     text-align: center;
 }
-.counter-box h1{
+
+.counter-box h1 {
     width: 100%;
     padding-top: 5px 0px;
     background-size: cover;
 }
-.counter-box p{
+
+.counter-box p {
     font-size: 25px;
     margin-top: 10px;
     color: var(--primary-font-color);
     font-family: var(--primary-font)
 }
-.count-icon{
+
+.count-icon {
     position: absolute;
     z-index: -1;
     left: 110px;
     top: 5px;
 }
-.count-icon i{
+
+.count-icon i {
     font-size: 87px;
     color: rgba(75, 67, 66, 0.40);
+}
+
+/* Services */
+
+.services-wrapper {
+    width: 100%;
+
+    background-image: url(../images/darken-cupcakes.webp);
+    background-size:cover;
+    background-attachment: fixed;
+    background-position:center;
+    padding: 80px 0px 20px;
+    position: relative;
+}
+
+
+.ours-heading-wrapper {
+    width: 100%;
+
+    text-align: center;
+    position: relative;
+    z-index: 1;
+    margin-bottom: 60px;
+}
+
+h1.service-heading {
+    margin: 0px;
+    font-size: 35px;
+    color: white;
+    text-transform: capitalize;
+    padding-bottom: 10px;
+}
+
+.service-box {
+
+    width: 100%;
+    text-align: center;
+    margin-bottom: 60px;
+}
+
+.service-box:hover .service-icon {
+    background-color: transparent;
+}
+
+.service-box > h2{
+    color: white;
+    font-size: 24px;
+    margin: 5px;
+    padding: 15px 0px;
+}
+
+.service-box > p{
+    color: white;
+    font-size: 16px;
+    line-height: 24px;
+    margin: 5px;
+}
+
+.service-icon {
+    width: 100px;
+    height: 100px;
+    display: inline-block;
+    line-height: 99px;
+    background-color: var(--thrid-color);
+    border-radius: 100px;
+    border: 4px double var(--thrid-color);
+    transition: all 0.3s ease-in-out;
+    -webkit-transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
+    -ms-transition: all 0.3s ease-in-out;
+}
+
+.service-icon i {
+    font-size: 45px;
+    color: var(--primary-font-color);
+    margin-top: 23px;
+}
+
+.service-box:hover .service-icon i {
+    -webkit-animation: spin 4s linear 0s infinite normal;
+    -moz-animation: spin 4s linear 0s infinite normal;
+    -ms-animation: spin 4s linear 0s infinite normal;
+    -o-animation: spin 4s linear 0s infinite normal;
+    animation: spin 4s linear 0s infinite normal;
+}
+/* Keyframe section for Spin animation */
+@keyframes spin {
+    0% {
+        transform: rotate(360deg);
+    }
+
+    100% {
+        transform: rotate(0deg);
+    }
+}
+
+@-webkit-keyframes spin {
+    0% {
+        -webkit-transform: rotate(360deg);
+    }
+
+    100% {
+        -webkit-transform: rotate(0deg);
+    }
+}
+
+@-ms-keyframes spin {
+    0% {
+        -ms-transform: rotate(360deg);
+    }
+
+    100% {
+        -ms-transform: rotate(0deg);
+    }
+}
+
+@-moz-keyframes spin {
+    0% {
+        -moz-transform: rotate(360deg);
+    }
+
+    100% {
+        -moz-transform: rotate(0deg);
+    }
+}
+
+@-o-keyframes spin {
+    0% {
+        -o-transform: rotate(360deg);
+    }
+
+    100% {
+        -o-transform: rotate(0deg);
+    }
 }
