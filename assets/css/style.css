@@ -18,7 +18,7 @@ body{
 }
 /* Header Padding to pass navbar */
 #header{
-    padding-top: 120px;
+    padding-top: 110px;
 }
 
 /* Content Headings */
@@ -32,10 +32,14 @@ body{
 }
 /* Navbar Font */
 .navbar{
+    position: fixed;
+    top: 0;
+    width: 100%;
     font-family: var(--primary-font);
     font-size: 18px;
     font-weight: 400;
     background-color: var(--thrid-color);
+    z-index: 100;
 }
 
 /* Navbar Toggler Background/border */
@@ -76,11 +80,10 @@ body{
     --bs-table-color: var(--primary-font-color);
     border: 0; 
 }
-
+/* Counter Styles */
 .counter{
     width: 100%;
     background-image: url(../images/raspberry-ripple-cupcakes.webp);
-    position: relative;
     padding: 70px 0px;
     background-size: cover;
 }
@@ -92,7 +95,6 @@ body{
 }
 .counter-box h1{
     width: 100%;
-    position: relative;
     padding-top: 5px 0px;
     background-size: cover;
 }
@@ -105,7 +107,7 @@ body{
 .count-icon{
     position: absolute;
     z-index: -1;
-    left: 115px;
+    left: 110px;
     top: 5px;
 }
 .count-icon i{
