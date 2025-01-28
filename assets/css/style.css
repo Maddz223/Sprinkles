@@ -45,3 +45,8 @@ body{
 .nav-item{
     text-align: center;
 }
+/* Footer Layout */
+#contact{
+    width: 100%;
+    background-color: var(--thrid-color);
+}
