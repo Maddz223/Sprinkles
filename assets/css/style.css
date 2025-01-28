@@ -76,3 +76,39 @@ body{
     --bs-table-color: var(--primary-font-color);
     border: 0; 
 }
+
+.counter{
+    width: 100%;
+    background-image: url(../images/raspberry-ripple-cupcakes.webp);
+    position: relative;
+    padding: 70px 0px;
+    background-size: cover;
+}
+.counter-box{
+    width: 100%;
+    position: relative;
+    z-index: 1;
+    text-align: center;
+}
+.counter-box h1{
+    width: 100%;
+    position: relative;
+    padding-top: 5px 0px;
+    background-size: cover;
+}
+.counter-box p{
+    font-size: 25px;
+    margin-top: 10px;
+    color: var(--primary-font-color);
+    font-family: var(--primary-font)
+}
+.count-icon{
+    position: absolute;
+    z-index: -1;
+    left: 115px;
+    top: 5px;
+}
+.count-icon i{
+    font-size: 87px;
+    color: rgba(75, 67, 66, 0.40);
+}
