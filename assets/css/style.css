@@ -62,32 +62,26 @@ body {
 .nav-item {
     text-align: center;
 }
-
-/* Footer Layout */
-#contact {
-    width: 100%;
-    background-color: var(--thrid-color);
+ /* Gallery Styles */
+ .card-body{
+    text-align: center;
+ }
+.card-img-top {
+    max-height: 250px;
+    overflow: hidden;
 }
 
-/* Social icons */
-#contact .social-links i {
-    color: var(--primary-font-color);
-    font-size: 1.9rem;
-    -webkit-transition: color 0.3s ease-in-out;
-    -o-transition: color 0.3s ease-in-out;
-    transition: color 0.3s ease-in-out;
-    margin-right: 15px;
+.card-title a:link {
+    font-size: 30px;
+    background-color: transparent;
+    color: #000000;
+    text-decoration: none;
 }
 
-#contact .social-links i:hover {
-    color: var(--secondary-color);
-}
-
-/* Opening times table */
-.table {
-    --bs-table-bg: var(--thrid-color);
-    --bs-table-color: var(--primary-font-color);
-    border: 0;
+.card-title a:hover {
+    color: red;
+    background-color: transparent;
+    text-decoration: underline;
 }
 
 /* Services */
@@ -100,7 +94,6 @@ body {
     padding: 80px 0px 20px;
     position: relative;
 }
-
 
 .ours-heading-wrapper {
     width: 100%;
@@ -221,4 +214,31 @@ h1.service-heading {
     100% {
         -o-transform: rotate(0deg);
     }
+}
+
+/* Footer Layout */
+#contact {
+    width: 100%;
+    background-color: var(--thrid-color);
+}
+
+/* Social icons */
+#contact .social-links i {
+    color: var(--primary-font-color);
+    font-size: 1.9rem;
+    -webkit-transition: color 0.3s ease-in-out;
+    -o-transition: color 0.3s ease-in-out;
+    transition: color 0.3s ease-in-out;
+    margin-right: 15px;
+}
+
+#contact .social-links i:hover {
+    color: var(--secondary-color);
+}
+
+/* Opening times table */
+.table {
+    --bs-table-bg: var(--thrid-color);
+    --bs-table-color: var(--primary-font-color);
+    border: 0;
 }
