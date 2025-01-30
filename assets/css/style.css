@@ -1,10 +1,10 @@
 /* Font Import */
-@import url('https://fonts.googleapis.com/css2?family=ABeeZee:ital@0;1&family=Merienda:wght@300..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=ABeeZee:ital@0;1&family=Berkshire+Swash&display=swap');
 
 /* Global Variables */
 :root {
     --primary-font: "ABeeZee", sans-serif;
-    --secondary-font: "Merienda", cursive;
+    --secondary-font: "Berkshire Swash", cursive;
     --primary-color: #B09AD9;
     --secondary-color: #ae3eb6;
     --thrid-color: #F195C3;
@@ -26,13 +26,13 @@ body {
 
 /* Content Headings */
 .headings {
-    font-family: var(--primary-font);
-    font-weight: 600 !important;
+    font-family: var(--secondary-font);
+    font-weight: 400 !important;
 }
 
 .headings1 {
     font-family: var(--secondary-font);
-    font-weight: 600 !important;
+    font-weight: 400 !important;
 }
 
 /* Navbar Font */
@@ -40,7 +40,7 @@ body {
     position: fixed;
     top: 0;
     width: 100%;
-    font-family: var(--primary-font);
+    font-family: var(--secondary-font);
     font-size: 18px;
     font-weight: 400;
     background-color: var(--thrid-color);
