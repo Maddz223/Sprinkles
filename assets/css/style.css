@@ -34,7 +34,11 @@ body {
     font-family: var(--secondary-font);
     font-weight: 400 !important;
 }
-
+/* Navbar Logo */
+.logo{
+    height: 80px;
+    width: 80px;
+}
 /* Navbar Font */
 .navbar {
     position: fixed;
@@ -86,6 +90,10 @@ body {
 /* Carousel */
 .carousel{
     padding-top: 50px;
+}
+.carousel-control-next, .carousel-control-prev{
+    opacity: 1;
+    
 }
 /* Services */
 
@@ -244,4 +252,28 @@ h1.service-heading {
     --bs-table-bg: var(--thrid-color);
     --bs-table-color: var(--primary-font-color);
     border: 0;
+}
+
+@media screen and (min-width: 1400px) {
+    .carousel-item{
+        height: 1000px;
+    }
+    body{
+        font-size: 25px;    
+        line-height: 2.3rem;
+    }
+    .service-box > p {
+        font-size: 25px;
+        line-height: 2.3rem;
+    }
+    .logo{
+        width: 120px;
+        height: 120px;
+    }
+    .navbar{
+        font-size: 25px;   
+    }
+    .nav-item{
+        padding: 5px;
+    }
 }
