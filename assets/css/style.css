@@ -70,7 +70,7 @@ body {
 }
 /* About Us Styling */
 .about-us{
-    padding-top: 105px;
+    padding-top: 90px;
 }
  /* Gallery Styles */
  .card-body{
@@ -293,5 +293,8 @@ footer{
     }
     .nav-item{
         padding: 5px;
+    }
+    .about-us{
+        padding: 150px;
     }
 }
