@@ -192,6 +192,10 @@ h1.service-heading {
     -o-animation: spin 4s linear 0s infinite normal;
     animation: spin 4s linear 0s infinite normal;
 }
+/* Gallery */
+div > .item{
+    padding: 5px;
+}
 
 /* Keyframe section for Spin animation */
 @keyframes spin {
