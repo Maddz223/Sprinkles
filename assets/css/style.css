@@ -3,9 +3,10 @@
 
 /*Added scrollbars*/
 html {
-    overflow: -moz-scrollbars-vertical; 
+    overflow: -moz-scrollbars-vertical;
     overflow-y: scroll;
 }
+
 /* Global Variables */
 :root {
     --primary-font: "ABeeZee", sans-serif;
@@ -23,6 +24,7 @@ body {
     font-size: 16px;
     line-height: 24px;
 }
+
 /* Content Headings */
 .headings {
     font-family: var(--secondary-font);
@@ -33,11 +35,13 @@ body {
     font-family: var(--secondary-font);
     font-weight: 400 !important;
 }
+
 /* Navbar Logo */
-.logo{
+.logo {
     height: 80px;
     width: 80px;
 }
+
 /* Navbar Styling */
 .navbar {
     top: 0;
@@ -66,12 +70,14 @@ body {
 .nav-item {
     text-align: center;
 }
+
 /* About Us Styling */
 
- /* Gallery Styles */
- .card-body{
+/* Gallery Styles */
+.card-body {
     text-align: center;
- }
+}
+
 .card-img-top {
     max-height: 250px;
     overflow: hidden;
@@ -89,8 +95,10 @@ body {
     background-color: transparent;
     text-decoration: underline;
 }
+
 /* Carousel */
-.carousel-control-next, .carousel-control-prev{
+.carousel-control-next,
+.carousel-control-prev {
     opacity: 1;
     background-color: black;
     top: 50%;
@@ -100,15 +108,17 @@ body {
     opacity: 0.5;
     border-radius: 50%;
 }
+
 /* Services */
-.container-fluid{
+.container-fluid {
     padding: 0;
 }
+
 .services-wrapper {
     width: 100%;
-    background-size:cover;
+    background-size: cover;
     background-attachment: fixed;
-    background-position:center;
+    background-position: center;
     position: relative;
 }
 
@@ -140,14 +150,14 @@ h1.service-heading {
     background-color: transparent;
 }
 
-.service-box > h2{
+.service-box>h2 {
     color: white;
     font-size: 24px;
     margin: 5px;
     padding: 15px 0px;
 }
 
-.service-box > p{
+.service-box>p {
     color: white;
     font-size: 16px;
     line-height: 24px;
@@ -182,6 +192,7 @@ h1.service-heading {
     -o-animation: spin 4s linear 0s infinite normal;
     animation: spin 4s linear 0s infinite normal;
 }
+
 /* Keyframe section for Spin animation */
 @keyframes spin {
     0% {
@@ -233,12 +244,26 @@ h1.service-heading {
     }
 }
 
+/* Custom button styles */
+.custom-button {
+    border: 2px solid var(--highlight-color);
+    background-color: var(--thrid-color);
+    color: var(--primary-font);
+}
+
+.custom-button:hover {
+    border: 2px solid var(--highlight-color);
+    background-color: var(--secondary-color);
+    color: var(--primary-font);
+}
+
 /* Footer Layout */
-footer{
+footer {
     left: 0;
     bottom: 0;
     width: 100%;
 }
+
 #contact {
     background-color: var(--thrid-color);
 }
