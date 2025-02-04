@@ -49,6 +49,8 @@ body {
     font-weight: 400;
     background-color: var(--thrid-color);
     z-index: 100;
+    --bs-navbar-hover-color: var(--secondary-color);
+    --bs-navbar-active-color: var(--secondary-color);
 }
 
 /* Navbar Toggler Background/border */
