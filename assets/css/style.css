@@ -23,7 +23,6 @@ body {
     font-size: 16px;
     line-height: 24px;
 }
-
 /* Content Headings */
 .headings {
     font-family: var(--secondary-font);
@@ -41,7 +40,6 @@ body {
 }
 /* Navbar Styling */
 .navbar {
-    position: fixed;
     top: 0;
     width: 100%;
     font-family: var(--secondary-font);
@@ -69,9 +67,7 @@ body {
     text-align: center;
 }
 /* About Us Styling */
-.about-us{
-    padding-top: 90px;
-}
+
  /* Gallery Styles */
  .card-body{
     text-align: center;
@@ -94,9 +90,6 @@ body {
     text-decoration: underline;
 }
 /* Carousel */
-.carousel{
-    padding-top: 50px;
-}
 .carousel-control-next, .carousel-control-prev{
     opacity: 1;
     background-color: black;
