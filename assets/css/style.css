@@ -1,6 +1,11 @@
 /* Font Import */
 @import url('https://fonts.googleapis.com/css2?family=ABeeZee:ital@0;1&family=Berkshire+Swash&display=swap');
 
+/*Added scrollbars*/
+html {
+    overflow: -moz-scrollbars-vertical; 
+    overflow-y: scroll;
+}
 /* Global Variables */
 :root {
     --primary-font: "ABeeZee", sans-serif;
