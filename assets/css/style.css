@@ -25,13 +25,15 @@ body {
     font-size: 16px;
     line-height: 24px;
 }
+
 /* Heading styling */
-header{
+header {
     padding: 0;
     z-index: 99;
     width: 100%;
     box-shadow: 0 2px 2px #3a3a3a;
 }
+
 /* Content Headings */
 .headings {
     font-family: var(--secondary-font);
@@ -58,6 +60,11 @@ header{
     z-index: 100;
     --bs-navbar-hover-color: var(--secondary-color);
     --bs-navbar-active-color: var(--secondary-color);
+}
+
+/* Margin between navbar links */
+.nav-item {
+    margin-right: 35px;
 }
 
 /* Navbar Toggler Background/border */
@@ -100,13 +107,14 @@ header{
 }
 
 /* Carousel */
-.carousel-inner img{
+.carousel-inner img {
     position: relative;
     align-items: center;
     max-height: 1150px;
     width: 100vw;
     height: auto;
 }
+
 /* Services */
 .container-fluid {
     padding: 0;
@@ -190,16 +198,19 @@ h1.service-heading {
     -o-animation: spin 4s linear 0s infinite normal;
     animation: spin 4s linear 0s infinite normal;
 }
+
 /* Gallery */
-div > .item{
+div>.item {
     padding: 5px;
     object-fit: contain;
     max-height: 320px !important;
     max-width: 320px !important;
 }
-img .img-fluid{
+
+img .img-fluid {
     object-fit: contain;
 }
+
 /* Keyframe section for Spin animation */
 @keyframes spin {
     0% {
@@ -270,24 +281,36 @@ footer {
     z-index: 99;
     width: 100%;
     box-shadow: 0 -2px 2px #3a3a3a;
-}
-/* Background for contact section */
-#contact {
     background-color: var(--thrid-color);
 }
 
 /* Social icons */
-#contact .social-links i {
-    color: var(--primary-font-color);
-    -webkit-transition: color 0.3s ease-in-out;
-    -o-transition: color 0.3s ease-in-out;
-    transition: color 0.3s ease-in-out;
-    margin-right: 25px;
-    font-size: 30px;
+.social-links a {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 38px;
+    height: 38px;
+    background-color: var(--secondary-color);
+    border: 4px double var(--thrid-color);
+    border-radius: 50%;
+    color: var(--thrid-color);
+    margin-right: 20px;
+    transition: all 0.3s ease;
+    text-decoration: none;
 }
 
-#contact .social-links i:hover {
+.social-links a:hover {
+    background: black;
+    transform: translateY(-3px);
+}
+
+.social-links i:hover {
     color: var(--secondary-color);
+}
+
+a {
+    color: black;
 }
 
 /* Opening times table */
@@ -296,35 +319,40 @@ footer {
     --bs-table-color: var(--primary-font-color);
     border: 0;
 }
+
 /* fix for lightbox gallery */
-.ratio:before{
+.ratio:before {
     padding: 5px;
 }
+
 /* Media queries */
 
 /* Small screens and upto 576px */
-@media screen and (max-width: 576px){
-    .nav-link{
+@media screen and (max-width: 576px) {
+    .nav-link {
         font-size: 25px;
     }
 }
 
 /* Medium devices (tablets, 768px and up) */
 @media screen and (min-width: 768px) {
+
     /* Make all service cards the same height for consistency */
-    .nav-link{
+    .nav-link {
         font-size: 28px;
         line-height: 32px;
     }
-    .card-body{
+
+    .card-body {
         min-height: 430px;
     }
 }
 
 /* Medium devices (laptops, 1024px and up) */
 @media screen and (min-width: 1024px) {
+
     /* Make all service cards the same height for consistency */
-    .card-body{
+    .card-body {
         min-height: 485px;
     }
 }
@@ -332,13 +360,15 @@ footer {
 
 /* xxl devices (larger desktops, 1400px and up) */
 @media screen and (min-width: 1400px) {
+
     /* make all service cards the same height for consistency */
-    .carousel-inner img{
+    .carousel-inner img {
         width: 100%;
         height: 1100px;
         object-fit: cover;
     }
-    .card-body{
+
+    .card-body {
         min-height: 0px;
     }
 }
