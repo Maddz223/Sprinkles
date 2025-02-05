@@ -11,14 +11,15 @@ html {
 :root {
     --primary-font: "ABeeZee", sans-serif;
     --secondary-font: "Berkshire Swash", cursive;
-    --primary-color: #B09AD9;
-    --secondary-color: #ae3eb6;
-    --thrid-color: #F195C3;
+    --primary-color: #b09ad9c7;
+    --secondary-color: #ae3eb69c;
+    --thrid-color: #f195c3e0;
     --primary-font-color: black;
 }
 
 /* Main Font */
 body {
+    background-color: var(--primary-color);
     font-family: var(--primary-font);
     color: var(--primary-font-color);
     font-size: 16px;
