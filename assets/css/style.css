@@ -12,7 +12,7 @@ html {
     --primary-font: "ABeeZee", sans-serif;
     --secondary-font: "Berkshire Swash", cursive;
     --primary-color: #b09ad9c7;
-    --secondary-color: #ae3eb69c;
+    --secondary-color: #c133cb;
     --thrid-color: #f195c3;
     --primary-font-color: black;
 }
@@ -101,7 +101,6 @@ header {
 }
 
 .card-title a:hover {
-    color: red;
     background-color: transparent;
     text-decoration: underline;
 }
