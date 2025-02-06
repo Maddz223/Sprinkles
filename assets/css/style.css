@@ -186,7 +186,7 @@ h1.service-heading {
 
 .service-icon i {
     font-size: 45px;
-    color: var(--primary-color);
+    color: var(--primary-font-color);
     margin-top: 23px;
 }
 
