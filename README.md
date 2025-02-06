@@ -26,8 +26,11 @@ In this section, you should go over the different parts of your project, and des
   - The navigation bar is prominently featured on all pages of the website, ensuring a consistent and smooth user experience. It includes links to key sections: the Logo (home), Home page, About Us page, Gallery, and Contact Us page. The bar is fully responsive, adapting seamlessly to different screen sizes and devices, ensuring easy access regardless of whether the user is on a desktop, tablet, or smartphone.
 
   - This design guarantees that users can navigate through the website effortlessly from any page to any other without the need to use the browser’s 'back' button. By maintaining the same navigation structure across all pages, visitors can switch between sections with just a few clicks, enhancing usability and making the browsing experience more intuitive.
+- __Full Screen Size__
+![NavBar Full Size](https://github.com/Maddz223/test/blob/main/assets/images/readme-images/navbar-full-size.png)
 
-![Nav Bar](https://github.com/Maddz223/test/blob/main/assets/images/readme-images/navbar-full-size.png)
+- __Mobile Screen Size__
+![Navbar Mobile Size](https://github.com/Maddz223/test/blob/main/assets/images/readme-images/navbar-mobile-size.png)
 
 - __The landing page image__
 
