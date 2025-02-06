@@ -299,12 +299,12 @@ footer {
     text-decoration: none;
 }
 
-.social-links a:hover {
+.socials a:hover {
     background: black;
     transform: translateY(-3px);
 }
 
-.social-links i:hover {
+.socials i:hover {
     color: var(--secondary-color);
 }
 
