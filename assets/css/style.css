@@ -11,9 +11,9 @@ html {
 :root {
     --primary-font: "ABeeZee", sans-serif;
     --secondary-font: "Berkshire Swash", cursive;
-    --primary-color: #8773acb9;
+    --primary-color: #8773ac75;
     --secondary-color: #c133cba7;
-    --thrid-color: #db8cb4;
+    --third-color: #db8cb4;
     --primary-font-color: black;
 }
 
@@ -56,7 +56,7 @@ header {
     font-family: var(--secondary-font);
     font-size: 18px;
     font-weight: 400;
-    background-color: var(--thrid-color);
+    background-color: var(--primary-color);
     z-index: 100;
     --bs-navbar-hover-color: var(--secondary-color);
     --bs-navbar-active-color: var(--secondary-color);
@@ -96,18 +96,6 @@ header {
 .card-img-top {
     max-height: 250px;
     overflow: hidden;
-}
-
-.card-title a:link {
-    font-size: 30px;
-    background-color: transparent;
-    color: #000000;
-    text-decoration: none;
-}
-
-.card-title a:hover {
-    background-color: transparent;
-    text-decoration: underline;
 }
 
 /* Carousel */
@@ -181,7 +169,7 @@ h1.service-heading {
     line-height: 99px;
     background-color: var(--secondary-color);
     border-radius: 100px;
-    border: 4px double var(--thrid-color);
+    border: 4px double var(--third-color);
     transition: all 0.3s ease-in-out;
     -webkit-transition: all 0.3s ease-in-out;
     -moz-transition: all 0.3s ease-in-out;
@@ -264,7 +252,7 @@ div>.item {
 /* Custom button styles */
 .custom-button {
     border: 2px solid var(--highlight-color);
-    background-color: var(--thrid-color);
+    background-color: var(--third-color);
     color: var(--primary-font);
 }
 
@@ -280,7 +268,7 @@ footer {
     z-index: 99;
     width: 100%;
     box-shadow: 0 -2px 2px #3a3a3a;
-    background-color: var(--thrid-color);
+    background-color: var(--third-color);
 }
 
 /* Social icons */
@@ -291,7 +279,7 @@ footer {
     width: 38px;
     height: 38px;
     background-color: var(--secondary-color);
-    border: 4px double var(--thrid-color);
+    border: 4px double var(--third-color);
     border-radius: 50%;
     color: var(--thrid-color);
     margin-right: 20px;
@@ -314,7 +302,7 @@ a {
 
 /* Opening times table */
 .table {
-    --bs-table-bg: var(--thrid-color);
+    --bs-table-bg: var(--third-color);
     --bs-table-color: var(--primary-font-color);
     border: 0;
 }
