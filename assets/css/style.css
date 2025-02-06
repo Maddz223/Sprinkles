@@ -202,13 +202,8 @@ h1.service-heading {
 /* Gallery */
 div>.item {
     padding: 5px;
-    object-fit: contain;
-    max-height: 320px !important;
-    max-width: 320px !important;
-}
-
-img .img-fluid {
-    object-fit: contain;
+    object-fit: cover;
+    object-position: 25% 25%;
 }
 
 /* Keyframe section for Spin animation */
