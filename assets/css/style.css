@@ -62,6 +62,11 @@ header {
     --bs-navbar-active-color: var(--secondary-color);
 }
 
+/* Navbar centered in drop down on smaller devices */
+.navbar-nav {
+    padding-left: 40px;
+}
+
 /* Margin between navbar links */
 .nav-item {
     margin-right: 35px;
@@ -351,6 +356,7 @@ a {
         height: 400px;
         object-fit: cover;
     }
+
     .card-body {
         min-height: 485px;
     }
