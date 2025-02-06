@@ -13,7 +13,7 @@ Cakes and treats for weddings, anniversaries, and other events.
 Indulge in the sweetest experience – because at Sprinkles, every bite is a celebration!
 
 
-![Responsice Mockup](https://github.com/Maddz223/test/blob/main/assets/images/readme-images/image.png)
+![Responsive Mockup](https://github.com/Maddz223/test/blob/main/assets/images/readme-images/responsive.png)
 
 ## Features 
 
@@ -23,10 +23,11 @@ In this section, you should go over the different parts of your project, and des
 
 - __Navigation Bar__
 
-  - Featured on all three pages, the full responsive navigation bar includes links to the Logo, Home page, Gallery and Sign Up page and is identical in each page to allow for easy navigation.
-  - This section will allow the user to easily navigate from page to page across all devices without having to revert back to the previous page via the ‘back’ button. 
+  - The navigation bar is prominently featured on all pages of the website, ensuring a consistent and smooth user experience. It includes links to key sections: the Logo (home), Home page, About Us page, Gallery, and Contact Us page. The bar is fully responsive, adapting seamlessly to different screen sizes and devices, ensuring easy access regardless of whether the user is on a desktop, tablet, or smartphone.
 
-![Nav Bar](https://github.com/lucyrush/readme-template/blob/master/media/love_running_nav.png)
+  - This design guarantees that users can navigate through the website effortlessly from any page to any other without the need to use the browser’s 'back' button. By maintaining the same navigation structure across all pages, visitors can switch between sections with just a few clicks, enhancing usability and making the browsing experience more intuitive.
+
+![Nav Bar](https://github.com/Maddz223/test/blob/main/assets/images/readme-images/navbar-full-size.png)
 
 - __The landing page image__
 
