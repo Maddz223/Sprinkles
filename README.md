@@ -30,6 +30,7 @@ In this section, you should go over the different parts of your project, and des
 ![NavBar Full Size](https://github.com/Maddz223/test/blob/main/assets/images/readme-images/navbar-full-size.png)
 
 - __Mobile Screen Size__
+
 ![Navbar Mobile Size](https://github.com/Maddz223/test/blob/main/assets/images/readme-images/navbar-mobile-size.png)
 
 - __The landing page image__
