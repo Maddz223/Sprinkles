@@ -2,7 +2,7 @@
 
 Welcome to Sprinkles – your go-to destination for all things sweet and delicious! We specialize in crafting the finest cupcakes, brownies, and birthday cakes, perfect for every occasion and event. Whether you're celebrating a birthday, wedding, corporate event, or simply craving a tasty treat, Sprinkles brings the joy of freshly baked, handcrafted sweets right to your doorstep.
 
-Our website allows you to explore our wide variety of mouthwatering baked goods, place orders for custom designs, and make sure your event is extra special with our personalized cakes and desserts.
+Our website allows you to explore our wide variety of mouthwatering baked goods, contact us for custom designs, and make sure your event is extra special with our personalized cakes and desserts.
 
 What We Offer:
 
