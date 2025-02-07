@@ -17,10 +17,6 @@ Indulge in the sweetest experience – because at Sprinkles, every bite is a cel
 
 ## Features 
 
-In this section, you should go over the different parts of your project, and describe each in a sentence or so. You will need to explain what value each of the features provides for the user, focusing on who this website is for, what it is that they want to achieve and how your project is the best way to help them achieve these things.
-
-### Existing Features
-
 - __Navigation Bar__
 
   - The navigation bar is prominently featured on all pages of the website, ensuring a consistent and smooth user experience. It includes links to key sections: the Logo (home), Home page, About Us page, Gallery, and Contact Us page. The bar is fully responsive, adapting seamlessly to different screen sizes and devices, ensuring easy access regardless of whether the user is on a desktop, tablet, or smartphone.
@@ -29,6 +25,7 @@ In this section, you should go over the different parts of your project, and des
   - The navigation links also have a highlighted color when on a active page and when hovered over with the mouse, this allows the user to know exactly where they are on the site. 
 
 - __Full Screen Size__
+
 ![NavBar Full Size](https://github.com/Maddz223/test/blob/main/assets/images/readme-images/navbar-full-size.png)
 
 - __Mobile Screen Size__
@@ -93,6 +90,9 @@ In this section, you should go over the different parts of your project, and des
   - This allows a better user experience to allow the user to have a better view of the images.
 
 ![Gallery](https://github.com/Maddz223/Sprinkles/blob/main/assets/images/readme-images/gallery-page.png)
+
+- __Modal Popout__
+
 ![Modal popout](https://github.com/Maddz223/Sprinkles/blob/main/assets/images/readme-images/modal-gallery-popout.png)
 
 - __Contact Us Page__
@@ -107,16 +107,6 @@ In this section, you should go over the different parts of your project, and des
   - This page will allow the user to get conformation that their message or email address has been accepted. 
 
 ![Success Page](https://github.com/Maddz223/Sprinkles/blob/main/assets/images/readme-images/success-page.png)
-
-
-
-For some/all of your features, you may choose to reference the specific project files that implement them.
-
-In addition, you may also use this section to discuss plans for additional features to be implemented in the future:
-
-### Features Left to Implement
-
-- Another feature idea
 
 ## Testing 
 
