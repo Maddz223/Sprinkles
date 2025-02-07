@@ -16,28 +16,33 @@ Indulge in the sweetest experience – because at Sprinkles, every bite is a cel
 
  1. [Planning](#Planning)
     * [User Stories](#UserStories)
-    * [WireFrames](#Wireframes)
-    * [How to achieved this](#Howtoachievedthis)
+    * [Wire Frames](#Wireframes)
+    * [Colour Scheme](#ColourScheme)
  2. [Features](#Features)
     * [Navigation Bar](#NavigationBar)
-    * [About Us](#AboutUs)
-    * [What we Offer](#WhatweOffer)
-    * [Call Back](#CallBack)
+    * [Landing Page](#LandingPage)
+    * [Image CardSection](#ImageCardSection)
+    * [Our Services](#OurServicesSection)
+    * [News Letter Signup](#Newsletter)
     * [Footer](#Footer)
- 4. [ColourScheme](#Colourscheme)
- 5. [Final Design](#FinalDesign)
- 6. [Deployment](#Deployment)
+    * [About Us Page](#AboutUs)
+    * [Gallery](#Gallery)
+    * [Modal Popout](#ModalPopout)
+    * [Contact Us Page](#ContactUs)
+    * [Success Page](#SuccessPage)
+ 4. [Final Design](#FinalDesign)
+ 5. [Deployment](#Deployment)
     * [Repository](#Repository)
     * [Hosting](#Hosting)
- 7. [Testing](#Testing)
+ 6. [Testing](#Testing)
     * [Mobile](#Mobile)
     * [Desktop](#Desktop)
- 8. [DeBugging](#DeBugging)
- 9. [Technologies Used](#TechnologiesUsed)
+ 7. [DeBugging](#DeBugging)
+ 8. [Technologies Used](#TechnologiesUsed)
     * [Languages](#Languages)
     * [Technology](#Technology)
- 10. [Project Link](#Projectlink)
- 11. [Acknowledgments / Thank You's](#Acknowledgments/thanksyou's)
+ 9. [Project Link](#Projectlink)
+ 10. [Acknowledgments / Thank You's](#Acknowledgments/thanksyou's)
 
 ![Responsive Mockup](https://github.com/Maddz223/test/blob/main/assets/images/readme-images/responsive.png)
 ## Planning
@@ -134,7 +139,15 @@ Indulge in the sweetest experience – because at Sprinkles, every bite is a cel
 ![Laptop Wireframes](https://github.com/Maddz223/Sprinkles/blob/main/assets/images/readme-images/Laptop-Small-Desktops-wireframes.png)
 - __Desktop__
 ![Desktop Wireframes](https://github.com/Maddz223/Sprinkles/blob/main/assets/images/readme-images/Large-Desktops-wireframes.png)
-## Features 
+
+### Colour Scheme
+
+![Color Kit](https://github.com/Maddz223/Sprinkles/blob/main/assets/images/readme-images/colorkit.png)
+
+    --primary-color: #f8d3e0;
+    --secondary-color: #f76988;
+    --third-color: #f9b4c1;
+## Features 8
 
 ### Navigation Bar
 
@@ -151,14 +164,14 @@ Indulge in the sweetest experience – because at Sprinkles, every bite is a cel
 
 ![Navbar Mobile Size](https://github.com/Maddz223/test/blob/main/assets/images/readme-images/navbar-mobile-size.png)
 
-- __The landing page image__
+### Landing page
 
   - The landing includes a large image carousel with text overlay at the bottom saying Sprinkles and the start of the card images. 
   - This section introduces the users to our home page with an eye catching images of cupcakes, brownies and a creative birthday cake within the carousel and card images to grab their attention.
 
 ![Landing Page](https://github.com/Maddz223/Sprinkles/blob/main/assets/images/readme-images/landing-page.png)
 
-- __Image Card Section__
+### Image Card Section
 
   - The Image card section will allow the user to see the types of cupcakes, brownies, birthday cakes,
   Celebration Events, Special Occasion Cupcakes and Special Occasion Brownies that we have to offer. 
@@ -166,7 +179,7 @@ Indulge in the sweetest experience – because at Sprinkles, every bite is a cel
 
 ![Image Cards](https://github.com/Maddz223/Sprinkles/blob/main/assets/images/readme-images/card-section.png)
 
-- __Our Services section__
+### Our Services section
 
   - This section will allow the user to see exactly what services we offer. 
   - This section has some animated icons that spin to grab the attention of the users. 
@@ -174,7 +187,7 @@ Indulge in the sweetest experience – because at Sprinkles, every bite is a cel
  
 ![Our Services](https://github.com/Maddz223/Sprinkles/blob/main/assets/images/readme-images/our-services.png)
 
-- __News Letter Signup section__
+### News Letter Signup section
 
   - This section will allow the users to sign up to our newletter for special offers, events and key infomation.
   - This section has a input box for the users to enter a email address and a submit button to sumbit the info.
@@ -182,7 +195,7 @@ Indulge in the sweetest experience – because at Sprinkles, every bite is a cel
 
 ![News Letter Signup](https://github.com/Maddz223/Sprinkles/blob/main/assets/images/readme-images/news-letter-signup.png)
 
-- __The Footer__ 
+### The Footer
 
   - The footer section includes an about us section with a small bit of information for the user to read to get to know Sprinkles better.
   - The footer section also has a quick links section to act the same as the navbar to allow the user to navigate to different pages.
@@ -194,14 +207,14 @@ Indulge in the sweetest experience – because at Sprinkles, every bite is a cel
 
 ![Footer](https://github.com/Maddz223/Sprinkles/blob/main/assets/images/readme-images/footer.png)
 
-- __About Us Page__
+### About Us Page
 
   - This page will allow the user to get more information on what Sprinkles is about. 
   - This page shows the user information and images. 
 
 ![About Us](https://github.com/Maddz223/Sprinkles/blob/main/assets/images/readme-images/about-us-page.png)
 
-- __Gallery__
+### Gallery
 
   - The gallery will provide the user with supporting images to see what creatations Sprinkles has to offer. 
   - This section is valuable to the user as they will be able to easily identify the types of creations and styles the organisation has to offer to the user. 
@@ -210,18 +223,18 @@ Indulge in the sweetest experience – because at Sprinkles, every bite is a cel
 
 ![Gallery](https://github.com/Maddz223/Sprinkles/blob/main/assets/images/readme-images/gallery-page.png)
 
-- __Modal Popout__
+### Modal Popout
 
 ![Modal popout](https://github.com/Maddz223/Sprinkles/blob/main/assets/images/readme-images/modal-gallery-popout.png)
 
-- __Contact Us Page__
+### Contact Us Page
 
   - This page will allow the user to get in contact with Sprinkles. 
   - The user will be asked to submit their full name, email address, phone number and a section to for the user to write a message. all these inputs are required before the user can proceed. 
 
 ![Contact Us](https://github.com/Maddz223/Sprinkles/blob/main/assets/images/readme-images/contact-us-page.png)
 
-- __Success Page__
+### Success Page
 
   - This page will allow the user to get conformation that their message or email address has been accepted. 
 
@@ -262,10 +275,9 @@ The live link can be found here - https://code-institute-org.github.io/love-runn
 
 
 ## Credits 
-
-In this section you need to reference where you got your content, media and extra help from. It is common practice to use code from other repositories and tutorials, however, it is important to be very specific about these sources to avoid plagiarism. 
-
-You can break the credits section up into Content and Media, depending on what you have included in your project. 
+- Colour pallet for the site was taken from [Colorkit](https://colorkit.co/color-palette-generator/f8d3e0-f9b4c1-f76988/) 
+- The icons on the site were taken from [Font Awesome](https://fontawesome.com/)
+- Java script for lightbox in the gallery from [Lightbox](https://trvswgnr.github.io/bs5-lightbox/)
 
 ### Content 
 
