@@ -25,7 +25,9 @@ In this section, you should go over the different parts of your project, and des
 
   - The navigation bar is prominently featured on all pages of the website, ensuring a consistent and smooth user experience. It includes links to key sections: the Logo (home), Home page, About Us page, Gallery, and Contact Us page. The bar is fully responsive, adapting seamlessly to different screen sizes and devices, ensuring easy access regardless of whether the user is on a desktop, tablet, or smartphone.
 
-  - This design guarantees that users can navigate through the website effortlessly from any page to any other without the need to use the browser’s 'back' button. By maintaining the same navigation structure across all pages, visitors can switch between sections with just a few clicks, enhancing usability and making the browsing experience more intuitive.
+  - This design guarantees that users can navigate through the website effortlessly from any page to any other without the need to use the browser’s 'back' button. By maintaining the same navigation structure across all pages, visitors can switch between sections with just a few clicks, enhancing usability and making the browsing experience more intuitive. 
+  - The navigation links also have a highlighted color when on a active page and when hovered over with the mouse, this allows the user to know exactly where they are on the site. 
+
 - __Full Screen Size__
 ![NavBar Full Size](https://github.com/Maddz223/test/blob/main/assets/images/readme-images/navbar-full-size.png)
 
@@ -35,44 +37,78 @@ In this section, you should go over the different parts of your project, and des
 
 - __The landing page image__
 
-  - The landing includes a photograph with text overlay to allow the user to see exactly which location this site would be applicable to. 
-  - This section introduces the user to Love Running with an eye catching animation to grab their attention
+  - The landing includes a large image carousel with text overlay at the bottom saying Sprinkles and the start of the card images. 
+  - This section introduces the users to our home page with an eye catching images of cupcakes, brownies and a creative birthday cake within the carousel and card images to grab their attention.
 
-![Landing Page](https://github.com/lucyrush/readme-template/blob/master/media/love_running_landing.png)
+![Landing Page](https://github.com/Maddz223/Sprinkles/blob/main/assets/images/readme-images/landing-page.png)
 
-- __Club Ethos Section__
+- __Image Card Section__
 
-  - The club ethos section will allow the user to see the benefits of joining the Love Running meetups, as well as the benefits of running overall. 
-  - This user will see the value of signing up for the Love Running meetups. This should encourage the user to consider running as their form of exercise. 
+  - The Image card section will allow the user to see the types of cupcakes, brownies, birthday cakes,
+  Celebration Events, Special Occasion Cupcakes and Special Occasion Brownies that we have to offer. 
+  - These image cards all have links to our gallery for the user to see all the creations we offer.
 
-![Club Ethos](https://github.com/lucyrush/readme-template/blob/master/media/love_running_ethos.png)
+![Image Cards](https://github.com/Maddz223/Sprinkles/blob/main/assets/images/readme-images/card-section.png)
 
-- __Meetup Times section__
+- __Our Services section__
 
-  - This section will allow the user to see exactly when the meetups will happen, where they will be located and how long the run will be in kilometers. 
-  - This section will be updated as these times change to keep the user up to date. 
+  - This section will allow the user to see exactly what services we offer. 
+  - This section has some animated icons that spin to grab the attention of the users. 
+  - This section has a paralax background that scrolls as the user scrolls down the our services section.
+ 
+![Our Services](https://github.com/Maddz223/Sprinkles/blob/main/assets/images/readme-images/our-services.png)
 
-![Meetup Times](https://github.com/lucyrush/readme-template/blob/master/media/love_running_times.png)
+- __News Letter Signup section__
+
+  - This section will allow the users to sign up to our newletter for special offers, events and key infomation.
+  - This section has a input box for the users to enter a email address and a submit button to sumbit the info.
+  - This form input has validation to make sure a email address is added before submitted.
+
+![News Letter Signup](https://github.com/Maddz223/Sprinkles/blob/main/assets/images/readme-images/news-letter-signup.png)
 
 - __The Footer__ 
 
-  - The footer section includes links to the relevant social media sites for Love Running. The links will open to a new tab to allow easy navigation for the user. 
+  - The footer section includes an about us section with a small bit of information for the user to read to get to know Sprinkles better.
+  - The footer section also has a quick links section to act the same as the navbar to allow the user to navigate to different pages.
+  - The footer section includes links to the relevant social media sites for Sprinkles. 
   - The footer is valuable to the user as it encourages them to keep connected via social media
+  - The links will open to a new tab to allow easy navigation for the user. 
+  - The footer has all the opening times and location for when out store is open.
+  - The footer also has contact phone number and email address for the user to use to contact.
 
-![Footer](https://github.com/lucyrush/readme-template/blob/master/media/love_running_footer.png)
+![Footer](https://github.com/Maddz223/Sprinkles/blob/main/assets/images/readme-images/footer.png)
+
+- __About Us Page__
+
+  - This page will allow the user to get more information on what Sprinkles is about. 
+  - This page shows the user information and images. 
+
+![About Us](https://github.com/Maddz223/Sprinkles/blob/main/assets/images/readme-images/about-us-page.png)
 
 - __Gallery__
 
-  - The gallery will provide the user with supporting images to see what the meet ups look like. 
-  - This section is valuable to the user as they will be able to easily identify the types of events the organisation puts together. 
+  - The gallery will provide the user with supporting images to see what creatations Sprinkles has to offer. 
+  - This section is valuable to the user as they will be able to easily identify the types of creations and styles the organisation has to offer to the user. 
+  -  The gallery also used a small amount of Java script to allow the images to pop out into a modal when clicked.
+  - This allows a better user experience to allow the user to have a better view of the images.
 
-![Gallery](https://github.com/lucyrush/readme-template/blob/master/media/love_running_gallery.png)
+![Gallery](https://github.com/Maddz223/Sprinkles/blob/main/assets/images/readme-images/gallery-page.png)
+![Modal popout](https://github.com/Maddz223/Sprinkles/blob/main/assets/images/readme-images/modal-gallery-popout.png)
 
-- __The Sign Up Page__
+- __Contact Us Page__
 
-  - This page will allow the user to get signed up to Love Running to start their running journey with the community. The user will be able specify if they would like to take part in road, trail or both types of running. The user will be asked to submit their full name and email address. 
+  - This page will allow the user to get in contact with Sprinkles. 
+  - The user will be asked to submit their full name, email address, phone number and a section to for the user to write a message. all these inputs are required before the user can proceed. 
 
-![Sign Up](https://github.com/lucyrush/readme-template/blob/master/media/love_running_signup.png)
+![Contact Us](https://github.com/Maddz223/Sprinkles/blob/main/assets/images/readme-images/contact-us-page.png)
+
+- __Success Page__
+
+  - This page will allow the user to get conformation that their message or email address has been accepted. 
+
+![Success Page](https://github.com/Maddz223/Sprinkles/blob/main/assets/images/readme-images/success-page.png)
+
+
 
 For some/all of your features, you may choose to reference the specific project files that implement them.
 
