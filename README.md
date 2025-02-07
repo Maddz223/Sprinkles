@@ -452,3 +452,7 @@ The live link can be found here - https://maddz223.github.io/Sprinkles/index.htm
 - To my wife for putting up with my annoying questions and helping me brainstorm.
 - To Lyupche Bozhinovski, for helping me trouble shoot issues.
 - My mentor, Dick Vlaanderen, for helping me stay focused.
+
+### Extra Comments
+
+- My commits were a little messy and misleading. once i spoke to my mentor he helped me understand where i was going wrong and to stay more consistent.
