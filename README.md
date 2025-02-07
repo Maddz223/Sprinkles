@@ -4,7 +4,7 @@ Welcome to Sprinkles – your go-to destination for all things sweet and delicio
 
 Our website allows you to explore our wide variety of mouthwatering baked goods, contact us for custom designs, and make sure your event is extra special with our personalized cakes and desserts.
 
-What We Offer:
+What the website Offers:
 
 A diverse selection of cupcakes in all flavors.
 Freshly baked, indulgent brownies.
@@ -19,9 +19,9 @@ Indulge in the sweetest experience – because at Sprinkles, every bite is a cel
     * [Wire Frames](#Wireframes)
     * [Colour Scheme](#ColourScheme)
  2. [Features](#Features)
-    * [Navigation Bar](#NavigationBar)
-    * [Landing Page](#LandingPage)
-    * [Image CardSection](#ImageCardSection)
+    * [Navigation Bar](#Navigation_Bar)
+    * [Landing Page](#Landing_Page)
+    * [Image CardSection](#Image_Card_Section)
     * [Our Services](#OurServicesSection)
     * [News Letter Signup](#Newsletter)
     * [Footer](#Footer)
@@ -164,7 +164,7 @@ Indulge in the sweetest experience – because at Sprinkles, every bite is a cel
 
 ![Navbar Mobile Size](https://github.com/Maddz223/test/blob/main/assets/images/readme-images/navbar-mobile-size.png)
 
-### Landing page
+### Landing Page
 
   - The landing includes a large image carousel with text overlay at the bottom saying Sprinkles and the start of the card images. 
   - This section introduces the users to our home page with an eye catching images of cupcakes, brownies and a creative birthday cake within the carousel and card images to grab their attention.
@@ -242,25 +242,183 @@ Indulge in the sweetest experience – because at Sprinkles, every bite is a cel
 
 ## Testing 
 
-In this section, you need to convince the assessor that you have conducted enough testing to legitimately believe that the site works well. Essentially, in this part you will want to go over all of your project’s features and ensure that they all work as intended, with the project providing an easy and straightforward way for the users to achieve their goals.
+### Lighthouse Testing
 
-In addition, you should mention in this section how your project looks and works on different browsers and screen sizes.
+Lighthouse is an open-source, automated tool developed by Google that helps developers improve the quality of their web applications by evaluating performance, accessibility, SEO, best practices, and more. By running a Lighthouse audit, you can identify areas where your site needs improvement and get suggestions for optimization.
 
-You should also mention in this section any interesting bugs or problems you discovered during your testing, even if you haven't addressed them yet.
+Key Features Tested by Lighthouse:
+Performance: Evaluates how quickly your page loads and renders. It considers metrics such as First Contentful Paint (FCP), Time to Interactive (TTI), and Speed Index.
+Accessibility: Measures how easily users, including those with disabilities, can navigate and interact with your site. Lighthouse checks for things like color contrast, keyboard accessibility, and screen reader compatibility.
+Best Practices: Evaluates your site’s adherence to modern web development best practices, including security features, error handling, and code quality.
+SEO: Ensures that your website is optimized for search engines, looking at things like meta tags, structured data, and the use of alt attributes for images.
+Progressive Web App (PWA): Checks if your web application follows PWA principles, like being installable and providing a reliable experience offline.
+How to Run Lighthouse Tests
+You can run Lighthouse in several ways:
 
-If this section grows too long, you may want to split it off into a separate file and link to it from here.
+Chrome DevTools:
 
+Open the webpage in Google Chrome.
+Right-click and choose "Inspect" or press Ctrl+Shift+I.
+Go to the "Lighthouse" tab.
+Click on "Generate report" to run the test.
+- Lighthouse CLI:
+
+  Install Lighthouse globally with npm install -g lighthouse.
+  Run a Lighthouse audit by executing lighthouse https://yourwebsite.com in the terminal.
+
+- PageSpeed Insights:
+
+  Visit PageSpeed Insights.
+  Enter the URL of your website, and the tool will run a Lighthouse report.
+
+- Web Vitals Extension:
+
+  Use the Web Vitals extension for Chrome to track real-time metrics directly in your browser.
+- Interpreting Lighthouse Scores
+  Lighthouse scores range from 0 to 100, with higher scores indicating better performance. Here's how to interpret the scores:
+
+  90-100: Excellent
+
+  50-89: Needs improvement
+  
+  
+- Suggestions for Improvement
+  Lighthouse provides detailed suggestions for improving each aspect of your website. These recommendations can help you optimize load times, enhance accessibility, and improve overall user experience.
+
+For more information, check the Lighthouse documentation.
+
+#### Index page
+![Index-lighthouse](https://github.com/Maddz223/Sprinkles/blob/main/assets/images/readme-images/index-lighthouse.png)
+
+#### About Us
+![About Us Page](https://github.com/Maddz223/Sprinkles/blob/main/assets/images/readme-images/about-us-lighthouse.png)
+
+#### Gallery
+![Gallery Page](https://github.com/Maddz223/Sprinkles/blob/main/assets/images/readme-images/gallery-lighthouse.png)
+
+#### Contact Us
+![Contact Us Page](https://github.com/Maddz223/Sprinkles/blob/main/assets/images/readme-images/contact-us-lighthouse.png)
+
+#### Success Page
+![Success Page](https://github.com/Maddz223/Sprinkles/blob/main/assets/images/readme-images/success-lighthouse.png)
+
+All testing was conducted in Google Chrome using incognito mode.
 
 ### Validator Testing 
+#### W3C Validator
+  
+To ensure that the code in this project is compliant with web standards, you can use the W3C Validator to check the HTML and CSS. This validator helps identify potential issues like incorrect syntax, missing tags, or non-standard code that might cause compatibility problems across browsers.
 
-- HTML
-  - No errors were returned when passing through the official [W3C validator](https://validator.w3.org/nu/?doc=https%3A%2F%2Fcode-institute-org.github.io%2Flove-running-2.0%2Findex.html)
-- CSS
-  - No errors were found when passing through the official [(Jigsaw) validator](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fvalidator.w3.org%2Fnu%2F%3Fdoc%3Dhttps%253A%252F%252Fcode-institute-org.github.io%252Flove-running-2.0%252Findex.html&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en#css)
+### How to Use W3C Validator
 
-### Unfixed Bugs
+#### HTML Validation
 
-You will need to mention unfixed bugs and why they were not fixed. This section should include shortcomings of the frameworks or technologies used. Although time can be a big variable to consider, paucity of time and difficulty understanding implementation is not a valid reason to leave bugs unfixed. 
+- Visit the W3C HTML Validator.
+- Paste the URL of the webpage you want to validate or upload the HTML file directly.
+- The tool will analyze the code and provide you with a detailed report on any issues or warnings.
+- Correct any issues based on the feedback to improve code quality.
+
+#### CSS Validation
+
+- Visit the W3C CSS Validator.
+- Paste the URL of the CSS file or upload it directly.
+- The tool will provide feedback on any invalid CSS rules or potential improvements.
+
+#### Automated Checks
+
+If you want to integrate the validation into your development workflow, consider using continuous integration (CI) tools that run the W3C Validator checks automatically during the build process. Tools like Travis CI or GitHub Actions can run these checks on your codebase, ensuring ongoing compliance.
+
+#### Benefits of Using W3C Validator
+##### Improved Compatibility
+- Ensures your pages work well across different browsers and devices.
+
+##### Better SEO
+- Search engines prefer well-structured code, which can enhance your site's ranking.
+
+##### Increased Accessibility
+- Cleaner code makes it easier for screen readers and other assistive technologies to interpret your site.
+
+#### Common Errors and Fixes
+- The W3C Validator will highlight various errors and warnings. 
+
+Some common issues you may encounter include:
+
+- Missing or misplaced tags (e.g., closing tags).
+-  Deprecated attributes or elements.
+- Invalid CSS properties.
+- For each issue, the W3C Validator provides suggestions for fixing the problem.
+
+
+### HTML
+  - No errors were returned when passing through the official [W3C validator](https://validator.w3.org/nu/)
+
+#### Index page
+![w3c Index](https://github.com/Maddz223/Sprinkles/blob/main/assets/images/readme-images/w3c-indexpage.png)
+
+#### About Us
+![w3c About Us Page](https://github.com/Maddz223/Sprinkles/blob/main/assets/images/readme-images/w3c-about-us-page.png)
+
+#### Gallery
+![w3c Gallery Page](https://github.com/Maddz223/Sprinkles/blob/main/assets/images/readme-images/w3c-gallery-page.png)
+
+#### Contact Us
+![w3c Contact Us Page](https://github.com/Maddz223/Sprinkles/blob/main/assets/images/readme-images/w3c-contact-us-page.png)
+
+#### Success Page
+![w3c Success Page](https://github.com/Maddz223/Sprinkles/blob/main/assets/images/readme-images/w3c-success-page.png)
+
+### Jigsaw CSS Validator
+
+The Jigsaw CSS Validator is a tool from the W3C used to check the validity of your CSS code. It ensures that your CSS follows proper syntax and adheres to web standards, preventing issues like broken styles or compatibility problems across browsers.
+
+### How to Use Jigsaw CSS Validator
+
+#### Online CSS Validation
+
+- Go to the Jigsaw CSS Validator.
+- You can validate CSS in three ways:
+- By URL: Enter the URL of your stylesheet (e.g., style.css) to validate a live CSS file.
+- By File: Upload your CSS file directly from your computer.
+- By Text: Paste your CSS code into the provided text box.
+- Once you submit the form, the validator will check your CSS code for errors, warnings, and potential      improvements.
+
+#### Understanding the Results
+
+- Errors: The validator will highlight syntax issues, such as missing semicolons, unrecognized properties, or invalid values.
+- Warnings: It will also flag CSS properties that are deprecated or may cause issues in specific browsers.
+- Suggestions: The validator will recommend improvements or alternative, more efficient CSS practices.
+
+#### Correcting Issues
+
+- Review the error and warning messages provided by the validator.
+- Modify your CSS file based on the suggestions and fix the identified problems.
+- Re-run the validation to confirm the corrections were successful.
+- Benefits of Using Jigsaw CSS Validator
+- Cross-Browser Compatibility: Ensures that your CSS will work as intended across different web browsers.
+- Standard Compliance: Validates that your CSS follows W3C standards, improving code quality and performance.
+- Debugging: Helps identify hidden issues in your CSS that could affect the layout or design.
+- Future-Proofing: By identifying deprecated CSS properties, it helps future-proof your stylesheets for upcoming web standards.
+
+#### Automated Validation (Optional)
+If you're working in a development environment, you can integrate the CSS validation into your continuous integration (CI) pipeline. This allows you to automate validation checks and ensure that invalid CSS is caught early during the development process.
+
+You can use services like Travis CI, GitHub Actions, or CircleCI to set up automated CSS validation steps in your workflow.
+
+#### Example
+After running the validator, you may encounter results like the following:
+
+- Error: background-color: #fff; — should be written as background-color: white; (more readable and accessible).
+- Warning: font-size: 16px; — consider using rem instead of px for better scalability.
+
+### CSS
+  - No errors were found when passing through the official [(Jigsaw) validator](https://jigsaw.w3.org/css-validator/)
+
+#### Jigsaw Results
+![Jigsaw css](https://github.com/Maddz223/Sprinkles/blob/main/assets/images/readme-images/jigsaw-css.png)
+
+#### Jigsaw Warnings
+![Jigsaw warnings](https://github.com/Maddz223/Sprinkles/blob/main/assets/images/readme-images/jigsaw-css-warnings.png)
+
 
 ## Deployment
 
