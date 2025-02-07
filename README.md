@@ -12,23 +12,142 @@ Custom-made birthday cakes for all ages.
 Cakes and treats for weddings, anniversaries, and other events.
 Indulge in the sweetest experience – because at Sprinkles, every bite is a celebration!
 
+## Table of content
+
+ 1. [Planning](#Planning)
+    * [User Stories](#UserStories)
+    * [WireFrames](#Wireframes)
+    * [How to achieved this](#Howtoachievedthis)
+ 2. [Features](#Features)
+    * [Navigation Bar](#NavigationBar)
+    * [About Us](#AboutUs)
+    * [What we Offer](#WhatweOffer)
+    * [Call Back](#CallBack)
+    * [Footer](#Footer)
+ 4. [ColourScheme](#Colourscheme)
+ 5. [Final Design](#FinalDesign)
+ 6. [Deployment](#Deployment)
+    * [Repository](#Repository)
+    * [Hosting](#Hosting)
+ 7. [Testing](#Testing)
+    * [Mobile](#Mobile)
+    * [Desktop](#Desktop)
+ 8. [DeBugging](#DeBugging)
+ 9. [Technologies Used](#TechnologiesUsed)
+    * [Languages](#Languages)
+    * [Technology](#Technology)
+ 10. [Project Link](#Projectlink)
+ 11. [Acknowledgments / Thank You's](#Acknowledgments/thanksyou's)
 
 ![Responsive Mockup](https://github.com/Maddz223/test/blob/main/assets/images/readme-images/responsive.png)
+## Planning
 
+### User Stories
+- __Homepage__
+  - As a first-time visitor, I want to see an inviting home page that highlights the bakery’s fun and creative cupcake offerings, so I feel excited to explore the products.
+  - Task: The homepage should showcase the bakery’s focus on delicious and visually appealing cupcakes.
+  - Acceptance Criteria:
+  A bright and playful color scheme with pastel or vibrant tones that reflect the whimsical nature of cupcakes.
+  The page should feature a large, rotating carousel or static images of decorated cupcakes to entice visitors.
+  Text overlay should focus on themes like “Made with love” or “The Best Cupcakes in Town,” highlighting the quality and artistry of the products.
+
+  - As a visitor, I want to see high-quality images of the cupcake bakery’s signature cupcakes on the homepage, so I can get a feel for the variety and design.
+  - Task: Display images of various cupcakes with a focus on different flavors, designs, and decoration styles.
+  - Acceptance Criteria:
+  A visually appealing section with a variety of cupcakes (e.g., “Red Velvet Delight,” “Chocolate Ganache,” “Strawberry Shortcake”).
+  Each image should emphasize the textures, colors, and unique design features (e.g., swirl frosting, sprinkles, edible glitter).
+  - As a returning customer, I want to see any seasonal promotions, limited-time cupcake flavors, or special events directly on the homepage, so I stay updated on what's new.
+  - Task: Highlight any new flavors or limited-edition cupcakes.
+  - Acceptance Criteria:
+  A prominent banner or card section for "Seasonal Specials" or "Limited-Time Flavors" (e.g., “Pumpkin Spice Cupcakes - Only This Fall!”).
+  Special offers like “Cupcake of the Month” or discounts for large orders should be clearly visible on the homepage.
+  - As a visitor, I want a simple and intuitive navigation menu at the top of the page that links to the Menu and Contact pages, so I can easily explore the website.
+  - Task: Ensure easy navigation across the website to view all cupcake-related content.
+  - Acceptance Criteria:
+  A sticky navigation bar with links to “Home,” “Menu,” “Custom Orders,” “About Us,” and “Contact.”
+  The menu should be clean and uncluttered, making it easy to find specific sections of the website.
+  - As a user, I want a brief introduction to the cupcake bakery’s story and values, so I can connect with the brand and learn about its passion for baking.
+  - Task: Introduce the bakery’s story and passion for crafting cupcakes.
+  - Acceptance Criteria:
+  A short paragraph or section describing how the bakery was founded, its focus on quality, creativity, and customer satisfaction (e.g., “Baking the finest cupcakes since 2010, with only the best ingredients”).
+  Optionally, include a photo or video showing the bakery in action or the bakers at work.
+
+- __Gallery Page__
+  - As a visitor, I want to see a comprehensive Gallery of all creations, so I can see all the company has to offer.
+  - Task: Gallery of all creations.
+  - Acceptance Criteria:
+   A grid or list of different creations made by sprinkles, eg cupcakes, birthday cakes, brownies and events.
+  - As a customer, I want each cupcake to have a high-quality image, so I can visually compare different options before making my selection.
+  - Task: Include an image for each cupcake flavor.
+  - Acceptance Criteria:
+  Each cupcake flavor should be paired with an enticing, high-resolution image (e.g., showing off the frosting swirls, decorations, or unique features like sprinkles, edible flowers, etc.).
+
+- __Contact Page__
+  - As a visitor, I want to see a clear and interactive map of the bakery’s location, so I can easily find directions and visit in person.
+  - Task: Embed a map showing the bakery’s physical location.
+  - Acceptance Criteria:
+  A Google Map or interactive map showing the exact location of the bakery.
+  Directions should be easily accessible through the map, and users should be able to view the bakery’s location on mobile devices as well.
+  - As a customer, I want to be able to contact the bakery through an easy-to-use form for special orders (e.g., custom cupcake designs for parties), so I can quickly make an inquiry.
+  - Task: Provide a user-friendly contact form for inquiries and special requests.
+  - Acceptance Criteria:
+  A simple form with fields for name, email, phone number (optional), message, and a dropdown for selecting the reason for contact (e.g., “Custom Order,” “General Inquiry,” “Event Catering”).
+  A message should be displayed confirming form submission and providing estimated response time.
+  - As a visitor, I want to know the bakery’s operating hours and whether there are any changes (e.g., holiday hours), so I can plan my visit accordingly.
+  - Task: Clearly display the bakery’s business hours.
+  - Acceptance Criteria:
+  A table or list showing operating hours (e.g., “Monday - Friday: 9 AM - 6 PM”).
+  A special note at the top or bottom of the page indicating any changes in hours during holidays or special events.
+  As a customer, I want the bakery’s phone number and email address to be easily accessible on the contact page, so I can reach out for urgent matters or inquiries.
+  - Task: Display the bakery’s contact details.
+  - Acceptance Criteria:
+  The phone number and email address should be visible at the top and bottom of the contact page.
+  Clicking the phone number should trigger a call on mobile devices (e.g., “tel:+1234567890”).
+  - As a user, I want to see links to the bakery’s social media profiles (Instagram, Facebook, etc.), so I can follow for updates on new flavors, events, or promotions.
+  - Task: Provide links to the bakery’s social media accounts.
+  - Acceptance Criteria:
+  Icons for Instagram, Facebook, and X should be clearly visible at the bottom of the contact page.
+  Clicking on an icon should open the respective social media page in a new tab.
+  - As a customer, I want to subscribe to the bakery’s newsletter, so I can stay informed about new cupcake flavors, promotions, and events.
+  - Task: Include an option to sign up for the newsletter.
+  - Acceptance Criteria:
+  A simple sign-up form asking for an email address and a clear call to action, like “Sign up to get the latest cupcake news!”
+  A message should be displayed confirming successful sign-up and outlining what the newsletter includes (e.g., “Get updates on seasonal flavors, promotions, and exclusive offers”).
+
+- __General Functionality__
+  - As a user, I want the website to be user-friendly, so I can easily browse and order cupcakes from all of my devices.
+  - Task: Ensure the website is responsive and user-friendly on mobile devices.
+  - Acceptance Criteria:
+  The website should adjust seamlessly to different screen sizes (smartphones, tablets, etc.), ensuring no loss of  functionality.
+  Text, images, and buttons should be legible and easy to interact with on mobile screens.
+  - As a visitor, I want the website to load quickly, so I don’t get frustrated and leave before exploring the cupcake options.
+  - Task: Optimize page speed for quick loading times.
+  - Acceptance Criteria:
+  All pages should load within 3 seconds, with optimized images and minimal heavy scripts that could slow the site down.
+
+### Wireframes
+- __Mobile__
+![Mobile Wireframes](https://github.com/Maddz223/Sprinkles/blob/main/assets/images/readme-images/Mobile-wireframes.png)
+- __Ipad__
+![Ipad Wireframes](https://github.com/Maddz223/Sprinkles/blob/main/assets/images/readme-images/Ipad-wireframes.png)
+- __Laptop__
+![Laptop Wireframes](https://github.com/Maddz223/Sprinkles/blob/main/assets/images/readme-images/Laptop-Small-Desktops-wireframes.png)
+- __Desktop__
+![Desktop Wireframes](https://github.com/Maddz223/Sprinkles/blob/main/assets/images/readme-images/Large-Desktops-wireframes.png)
 ## Features 
 
-- __Navigation Bar__
+### Navigation Bar
 
   - The navigation bar is prominently featured on all pages of the website, ensuring a consistent and smooth user experience. It includes links to key sections: the Logo (home), Home page, About Us page, Gallery, and Contact Us page. The bar is fully responsive, adapting seamlessly to different screen sizes and devices, ensuring easy access regardless of whether the user is on a desktop, tablet, or smartphone.
 
   - This design guarantees that users can navigate through the website effortlessly from any page to any other without the need to use the browser’s 'back' button. By maintaining the same navigation structure across all pages, visitors can switch between sections with just a few clicks, enhancing usability and making the browsing experience more intuitive. 
   - The navigation links also have a highlighted color when on a active page and when hovered over with the mouse, this allows the user to know exactly where they are on the site. 
 
-- __Full Screen Size__
+### Full Screen Size
 
 ![NavBar Full Size](https://github.com/Maddz223/test/blob/main/assets/images/readme-images/navbar-full-size.png)
 
-- __Mobile Screen Size__
+### Mobile Screen Size
 
 ![Navbar Mobile Size](https://github.com/Maddz223/test/blob/main/assets/images/readme-images/navbar-mobile-size.png)
 
