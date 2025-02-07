@@ -12,39 +12,8 @@ Custom-made birthday cakes for all ages.
 Cakes and treats for weddings, anniversaries, and other events.
 Indulge in the sweetest experience – because at Sprinkles, every bite is a celebration!
 
-## Table of content
-
- 1. [Planning](#Planning)
-    * [User Stories](#UserStories)
-    * [Wire Frames](#Wireframes)
-    * [Colour Scheme](#ColourScheme)
- 2. [Features](#Features)
-    * [Navigation Bar](#Navigation_Bar)
-    * [Landing Page](#Landing_Page)
-    * [Image CardSection](#Image_Card_Section)
-    * [Our Services](#OurServicesSection)
-    * [News Letter Signup](#Newsletter)
-    * [Footer](#Footer)
-    * [About Us Page](#AboutUs)
-    * [Gallery](#Gallery)
-    * [Modal Popout](#ModalPopout)
-    * [Contact Us Page](#ContactUs)
-    * [Success Page](#SuccessPage)
- 4. [Final Design](#FinalDesign)
- 5. [Deployment](#Deployment)
-    * [Repository](#Repository)
-    * [Hosting](#Hosting)
- 6. [Testing](#Testing)
-    * [Mobile](#Mobile)
-    * [Desktop](#Desktop)
- 7. [DeBugging](#DeBugging)
- 8. [Technologies Used](#TechnologiesUsed)
-    * [Languages](#Languages)
-    * [Technology](#Technology)
- 9. [Project Link](#Projectlink)
- 10. [Acknowledgments / Thank You's](#Acknowledgments/thanksyou's)
-
 ![Responsive Mockup](https://github.com/Maddz223/test/blob/main/assets/images/readme-images/responsive.png)
+
 ## Planning
 
 ### User Stories
